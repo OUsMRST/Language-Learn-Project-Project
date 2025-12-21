@@ -13,20 +13,20 @@ namespace BusinessLogic
     [Route("[controller]")]
     public class StudyController : ControllerBase
     {
-        private readonly ISentenceGenerator _sentenceGenerator;
+        private readonly ICardsQueue _cardsQueue;
         private readonly IDatabaseContext _db;
         private readonly IScheduler _scheduler;
 
-        public StudyController(ISentenceGenerator generator, IDatabaseContext db, IScheduler scheduler)
+        public StudyController(ICardsQueue queue, IDatabaseContext db, IScheduler scheduler)
         { 
-            _sentenceGenerator = generator;
+            _cardsQueue = queue;
             _db = db;
             _scheduler = scheduler;
         }
         
 
 
-        [HttpGet("{guid:deckId}")]
+        [HttpGet("{deckId:guid}")]
         public async Task<ActionResult<Card>> GetRandomCardToRepeatFromDeck(Guid deckId)
         {
             DateTimeOffset now = DateTimeOffset.UtcNow;
@@ -52,6 +52,7 @@ namespace BusinessLogic
 
             repeatedCard = _scheduler.Schedule(assessment, repeatedCard);
             await _db.SaveChangesAsync(cancellationToken);
+            _cardsQueue.EnquequeAsync(cardId);
 
             return Ok(repeatedCard);
         }

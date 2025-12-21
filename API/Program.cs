@@ -4,6 +4,7 @@ using Core;
 using Swashbuckle.AspNetCore.Swagger;
 using Core.Interfaces;
 using Llm;
+using Scheluding;
 
 namespace API
 {
@@ -18,8 +19,10 @@ namespace API
             builder.Services.AddDbContext<DatabaseContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("Sqlite")));
             builder.Services.AddScoped<Core.Interfaces.IDatabaseContext, DatabaseContext>();
 
-            builder.Services.AddSingleton<ISentenceGenerator>(_ => new SentenceGenerator("http://127.0.0.1:11434", "hf.co/Vikhrmodels/Vistral-24B-Instruct-GGUF:Q4_K_M"));
+            builder.Services.AddScoped<IScheduler, Scheduler>();
+
             builder.Services.AddSingleton<ICardsQueue, CardQueue>();
+            builder.Services.AddSingleton<ISentenceGenerator>(_ => new SentenceGenerator("http://127.0.0.1:11434", "hf.co/Vikhrmodels/Vistral-24B-Instruct-GGUF:Q4_K_M"));
 
             builder.Services.AddHostedService<SentenceGenerationWorker>();
 

@@ -13,3 +13,19 @@ C:\Visual Studio Projects\LangLearnProject without API\DataAccess\obj\Debug\net1
 C:\Visual Studio Projects\LangLearnProject without API\DataAccess\obj\Debug\net10.0\refint\DataAccess.dll
 C:\Visual Studio Projects\LangLearnProject without API\DataAccess\obj\Debug\net10.0\DataAccess.pdb
 C:\Visual Studio Projects\LangLearnProject without API\DataAccess\obj\Debug\net10.0\ref\DataAccess.dll
+C:\VisualStudioProjects\LangLearnProject\DataAccess\bin\Debug\net10.0\DataAccess.deps.json
+C:\VisualStudioProjects\LangLearnProject\DataAccess\bin\Debug\net10.0\DataAccess.dll
+C:\VisualStudioProjects\LangLearnProject\DataAccess\bin\Debug\net10.0\DataAccess.pdb
+C:\VisualStudioProjects\LangLearnProject\DataAccess\bin\Debug\net10.0\Core.dll
+C:\VisualStudioProjects\LangLearnProject\DataAccess\bin\Debug\net10.0\Core.pdb
+C:\VisualStudioProjects\LangLearnProject\DataAccess\obj\Debug\net10.0\DataAccess.csproj.AssemblyReference.cache
+C:\VisualStudioProjects\LangLearnProject\DataAccess\obj\Debug\net10.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\VisualStudioProjects\LangLearnProject\DataAccess\obj\Debug\net10.0\DataAccess.AssemblyInfoInputs.cache
+C:\VisualStudioProjects\LangLearnProject\DataAccess\obj\Debug\net10.0\DataAccess.AssemblyInfo.cs
+C:\VisualStudioProjects\LangLearnProject\DataAccess\obj\Debug\net10.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\VisualStudioProjects\LangLearnProject\DataAccess\obj\Debug\net10.0\DataAccess.sourcelink.json
+C:\VisualStudioProjects\LangLearnProject\DataAccess\obj\Debug\net10.0\DataAccess.csproj.Up2Date
+C:\VisualStudioProjects\LangLearnProject\DataAccess\obj\Debug\net10.0\DataAccess.dll
+C:\VisualStudioProjects\LangLearnProject\DataAccess\obj\Debug\net10.0\refint\DataAccess.dll
+C:\VisualStudioProjects\LangLearnProject\DataAccess\obj\Debug\net10.0\DataAccess.pdb
+C:\VisualStudioProjects\LangLearnProject\DataAccess\obj\Debug\net10.0\ref\DataAccess.dll

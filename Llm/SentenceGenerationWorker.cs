@@ -25,21 +25,36 @@ namespace Llm
 
         protected override async Task ExecuteAsync(CancellationToken cancellationToken)
         {
+            Console.WriteLine($"Worker started at {DateTimeOffset.UtcNow}. Cancellation requested: {cancellationToken.IsCancellationRequested}");
+
             while (!cancellationToken.IsCancellationRequested)
             {
-                Guid cardId = await _cardQueue.Dequeque(cancellationToken); // О... Так оказывается компилятор оптимизирует и автоматически выносит переменные за пределы цикла... Интересненько :)
-
+                Console.WriteLine("Waiting for card ID...");
+                Guid cardId = await _cardQueue.DequequeAsync(cancellationToken); // О... Так оказывается компилятор оптимизирует и автоматически выносит переменные за пределы цикла... Интересненько :)
                 using IServiceScope scope = _services.CreateScope();
-
                 IDatabaseContext database = scope.ServiceProvider.GetRequiredService<IDatabaseContext>();
 
-                Card? card = await database.Cards.FindAsync(cardId, cancellationToken);
-                if (card == null) continue;
+                try
+                {
+                    Card? card = await database.Cards.FindAsync(cardId);
+                    Console.WriteLine("Card dequeqed.");
 
-                string sentencePair = await _sentenceGenerator.GenerateSentencePair(card);
-                card.GeneratedSentencePair = sentencePair;
+                    if (card == null)
+                    {
+                        Console.WriteLine("Card == null!");
+                        continue;
+                    }
 
-                await database.SaveChangesAsync(cancellationToken);
+
+                    string sentencePair = await _sentenceGenerator.GenerateSentencePair(card);
+                    card.GeneratedSentencePair = sentencePair;
+
+                    await database.SaveChangesAsync(cancellationToken);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error: {ex}");
+                }
             }
         }
     }

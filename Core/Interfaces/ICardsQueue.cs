@@ -7,7 +7,7 @@ namespace Core.Interfaces
 {
     public interface ICardsQueue
     {
-        public void Enqueque(Guid cardId);
-        public ValueTask<Guid> Dequeque(CancellationToken cancellationToken);
+        public void EnquequeAsync(Guid cardId);
+        public ValueTask<Guid> DequequeAsync(CancellationToken cancellationToken);
     }
 }

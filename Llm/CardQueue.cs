@@ -13,15 +13,18 @@ namespace Llm
         private readonly Channel<Guid> _channel = Channel.CreateUnbounded<Guid>();
 
         private readonly ConcurrentDictionary<Guid, byte> _forDeduplication = new ConcurrentDictionary<Guid, byte>();
-        public void Enqueque(Guid cardId)
+        public async void EnquequeAsync(Guid cardId)
         {
-            if (!_forDeduplication.TryAdd(cardId, 0))
-            _channel.Writer.WriteAsync(cardId);
+            if (_forDeduplication.TryAdd(cardId, 0)) await _channel.Writer.WriteAsync(cardId);
+
+            Console.WriteLine($"[Queue] Enqueue called by {cardId}.");
         }
-        public async ValueTask<Guid> Dequeque(CancellationToken cancellationToken)
+        public async ValueTask<Guid> DequequeAsync(CancellationToken cancellationToken)
         {
+            Console.WriteLine($"[Queue] Dequeue called.");
             Guid cardId = await _channel.Reader.ReadAsync(cancellationToken);
             _forDeduplication.TryRemove(cardId, out _);
+
             return cardId;
         }
     }

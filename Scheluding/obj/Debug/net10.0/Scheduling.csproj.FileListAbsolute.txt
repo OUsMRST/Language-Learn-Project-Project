@@ -1,0 +1,16 @@
+C:\VisualStudioProjects\LangLearnProject\Scheluding\bin\Debug\net10.0\Scheduling.deps.json
+C:\VisualStudioProjects\LangLearnProject\Scheluding\bin\Debug\net10.0\Scheduling.dll
+C:\VisualStudioProjects\LangLearnProject\Scheluding\bin\Debug\net10.0\Scheduling.pdb
+C:\VisualStudioProjects\LangLearnProject\Scheluding\bin\Debug\net10.0\Core.dll
+C:\VisualStudioProjects\LangLearnProject\Scheluding\bin\Debug\net10.0\Core.pdb
+C:\VisualStudioProjects\LangLearnProject\Scheluding\obj\Debug\net10.0\Scheduling.csproj.AssemblyReference.cache
+C:\VisualStudioProjects\LangLearnProject\Scheluding\obj\Debug\net10.0\Scheduling.GeneratedMSBuildEditorConfig.editorconfig
+C:\VisualStudioProjects\LangLearnProject\Scheluding\obj\Debug\net10.0\Scheduling.AssemblyInfoInputs.cache
+C:\VisualStudioProjects\LangLearnProject\Scheluding\obj\Debug\net10.0\Scheduling.AssemblyInfo.cs
+C:\VisualStudioProjects\LangLearnProject\Scheluding\obj\Debug\net10.0\Scheduling.csproj.CoreCompileInputs.cache
+C:\VisualStudioProjects\LangLearnProject\Scheluding\obj\Debug\net10.0\Scheduling.sourcelink.json
+C:\VisualStudioProjects\LangLearnProject\Scheluding\obj\Debug\net10.0\Scheduling.csproj.Up2Date
+C:\VisualStudioProjects\LangLearnProject\Scheluding\obj\Debug\net10.0\Scheduling.dll
+C:\VisualStudioProjects\LangLearnProject\Scheluding\obj\Debug\net10.0\refint\Scheduling.dll
+C:\VisualStudioProjects\LangLearnProject\Scheluding\obj\Debug\net10.0\Scheduling.pdb
+C:\VisualStudioProjects\LangLearnProject\Scheluding\obj\Debug\net10.0\ref\Scheduling.dll

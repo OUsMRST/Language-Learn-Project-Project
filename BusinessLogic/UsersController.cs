@@ -59,5 +59,15 @@ namespace BusinessLogic
 
             return Created($"/users/{newUser.Id}", newUser);
         }
+
+
+        [HttpPost("particular")]
+        public async Task<ActionResult<User>> Post(CancellationToken cancellationToken, User newUser)
+        {
+            _db.Add(newUser);
+            await _db.SaveChangesAsync(cancellationToken);
+
+            return Created($"/users/{newUser.Id}", newUser);
+        }
     }
 }

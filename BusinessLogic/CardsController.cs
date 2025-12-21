@@ -24,6 +24,7 @@ namespace BusinessLogic
         }
 
 
+
         [HttpGet("{id:guid}")]
         public async Task<ActionResult<Card>> GetById(Guid id)
         {
@@ -33,21 +34,24 @@ namespace BusinessLogic
         }
 
 
+
         [HttpPost()]
         public async Task<ActionResult<Card>> Post(Card newCard, CancellationToken cancellationToken)
         {
             _db.Cards.Add(newCard);
             await _db.SaveChangesAsync(cancellationToken);
-            _cardsQueue.Enqueque(newCard.Id);
+            _cardsQueue.EnquequeAsync(newCard.Id);
+
 
             return Created($"/cards/{newCard.Id}", newCard);
         }
 
 
+
         [HttpPut("{id:guid}")]
-        public async Task<ActionResult<Card>> Put(Card updatedCard, CancellationToken cancellationToken)
+        public async Task<ActionResult<Card>> Put(Card updatedCard, CancellationToken cancellationToken, Guid id)
         {
-            Card? cardToUpdate = await _db.Cards.FindAsync(updatedCard.Id);
+            Card? cardToUpdate = await _db.Cards.FindAsync(id);
             if (cardToUpdate == null) return NotFound();
 
             cardToUpdate.Title = updatedCard.Title;
@@ -55,6 +59,7 @@ namespace BusinessLogic
             cardToUpdate.NextRepetitionTime = updatedCard.NextRepetitionTime;
 
             await _db.SaveChangesAsync(cancellationToken);
+            _cardsQueue.EnquequeAsync(updatedCard.Id);
 
             return Ok(cardToUpdate);
         }

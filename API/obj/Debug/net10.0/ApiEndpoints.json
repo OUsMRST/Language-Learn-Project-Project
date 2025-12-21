@@ -66,44 +66,13 @@
       },
       {
         "Name": "id",
-        "Type": "",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
         "Type": "Core.Card",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "BusinessLogic.CardsController",
-    "Method": "GenerateSentense",
-    "RelativePath": "Cards/{id}/generate-sentense",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "card",
-        "Type": "Core.Card",
-        "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.Dictionary\u00602[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -180,7 +149,7 @@
       },
       {
         "Name": "id",
-        "Type": "",
+        "Type": "System.Guid",
         "IsRequired": true
       }
     ],
@@ -213,6 +182,79 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.ICollection\u00601[[Core.Card, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BusinessLogic.DecksController",
+    "Method": "GetReadyCards",
+    "RelativePath": "Decks/{id}/ready-cards",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.ICollection\u00601[[Core.Card, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BusinessLogic.StudyController",
+    "Method": "RepeatCard",
+    "RelativePath": "Study/{cardId}/{assessment}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assessment",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cardId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BusinessLogic.StudyController",
+    "Method": "GetRandomCardToRepeatFromDeck",
+    "RelativePath": "Study/{deckId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deckId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.Card",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -305,6 +347,32 @@
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.ICollection\u00601[[Core.Deck, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BusinessLogic.UsersController",
+    "Method": "Post",
+    "RelativePath": "Users/particular",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newUser",
+        "Type": "Core.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Core.User",
         "MediaTypes": [
           "text/plain",
           "application/json",

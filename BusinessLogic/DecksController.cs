@@ -68,10 +68,11 @@ namespace BusinessLogic
         }
 
 
+
         [HttpPut("{id:guid}")]
-        public async Task<ActionResult<Deck>> Put(Deck updatedDeck, CancellationToken cancellationToken)
+        public async Task<ActionResult<Deck>> Put(Deck updatedDeck, CancellationToken cancellationToken, Guid id)
         {
-            Deck? deckToUpdate = await _db.Decks.FindAsync(updatedDeck.Id);
+            Deck? deckToUpdate = await _db.Decks.FindAsync(id);
             if (deckToUpdate == null) return NotFound();
 
             deckToUpdate.Name = updatedDeck.Name;

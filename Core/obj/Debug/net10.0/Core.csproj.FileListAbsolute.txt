@@ -10,3 +10,16 @@ C:\Visual Studio Projects\LangLearnProject without API\Core\obj\Debug\net10.0\Co
 C:\Visual Studio Projects\LangLearnProject without API\Core\obj\Debug\net10.0\refint\Core.dll
 C:\Visual Studio Projects\LangLearnProject without API\Core\obj\Debug\net10.0\Core.pdb
 C:\Visual Studio Projects\LangLearnProject without API\Core\obj\Debug\net10.0\ref\Core.dll
+C:\VisualStudioProjects\LangLearnProject\Core\bin\Debug\net10.0\Core.deps.json
+C:\VisualStudioProjects\LangLearnProject\Core\bin\Debug\net10.0\Core.dll
+C:\VisualStudioProjects\LangLearnProject\Core\bin\Debug\net10.0\Core.pdb
+C:\VisualStudioProjects\LangLearnProject\Core\obj\Debug\net10.0\Core.csproj.AssemblyReference.cache
+C:\VisualStudioProjects\LangLearnProject\Core\obj\Debug\net10.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\VisualStudioProjects\LangLearnProject\Core\obj\Debug\net10.0\Core.AssemblyInfoInputs.cache
+C:\VisualStudioProjects\LangLearnProject\Core\obj\Debug\net10.0\Core.AssemblyInfo.cs
+C:\VisualStudioProjects\LangLearnProject\Core\obj\Debug\net10.0\Core.csproj.CoreCompileInputs.cache
+C:\VisualStudioProjects\LangLearnProject\Core\obj\Debug\net10.0\Core.sourcelink.json
+C:\VisualStudioProjects\LangLearnProject\Core\obj\Debug\net10.0\Core.dll
+C:\VisualStudioProjects\LangLearnProject\Core\obj\Debug\net10.0\refint\Core.dll
+C:\VisualStudioProjects\LangLearnProject\Core\obj\Debug\net10.0\Core.pdb
+C:\VisualStudioProjects\LangLearnProject\Core\obj\Debug\net10.0\ref\Core.dll

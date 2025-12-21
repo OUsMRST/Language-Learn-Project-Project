@@ -9,8 +9,8 @@ namespace Core
     {
         [Key]
         public Guid Id { get; set; } = Guid.NewGuid();
-        public Guid UserId { get; set; }
-        public Guid DeckId { get; set; }
+        public required Guid DeckId { get; set; }
+        public required Guid UserId { get; set; }
 
         public required string Title { get; set; }
         public string? Description { get; set; }
