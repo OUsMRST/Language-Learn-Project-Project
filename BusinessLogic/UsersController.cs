@@ -51,11 +51,11 @@ namespace BusinessLogic
 
 
         [HttpPost()]
-        public async Task<ActionResult<User>> Post()
+        public async Task<ActionResult<User>> Post(CancellationToken cancellationToken)
         {
             User newUser = new User();
             _db.Add(newUser);
-            await _db.SaveChangesAsync();
+            await _db.SaveChangesAsync(cancellationToken);
 
             return Created($"/users/{newUser.Id}", newUser);
         }

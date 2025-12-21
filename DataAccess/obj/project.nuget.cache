@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9h4BrDu2lM4=",
+  "dgSpecHash": "dh7yvONA07I=",
   "success": true,
-  "projectFilePath": "C:\\Visual Studio Projects\\LangLearnProject without API\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\VisualStudioProjects\\LangLearnProject\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.0\\microsoft.data.sqlite.core.10.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.0\\microsoft.entityframeworkcore.10.0.0.nupkg.sha512",

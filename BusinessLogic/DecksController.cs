@@ -43,18 +43,33 @@ namespace BusinessLogic
         }
 
 
+        [HttpGet("{id:guid}/ready-cards")]
+        public async Task<ActionResult<ICollection<Card>>> GetReadyCards(Guid id)
+        {
+            Deck? deck = await _db.Decks.Include(d => d.Cards).FirstOrDefaultAsync(x => x.Id == id);
+            if (deck == null) return NotFound("Deck was not found.");
+
+            DateTimeOffset now = DateTimeOffset.UtcNow;
+            ICollection<Card> cards = deck.Cards.Where(c => c.NextRepetitionTime <= now).ToList();
+
+            if (cards.Count == 0) return NotFound("Ready cards were not found.");
+            return Ok(cards);
+        }
+
+
+
         [HttpPost()]
-        public async Task<ActionResult<Deck>> Post(Deck newDeck)
+        public async Task<ActionResult<Deck>> Post(Deck newDeck, CancellationToken cancellationToken)
         {
             _db.Decks.Add(newDeck);
-            await _db.SaveChangesAsync();
+            await _db.SaveChangesAsync(cancellationToken);
 
             return Created($"/decks/{newDeck.Id}", newDeck);
         }
 
 
         [HttpPut("{id:guid}")]
-        public async Task<ActionResult<Deck>> Put(Deck updatedDeck)
+        public async Task<ActionResult<Deck>> Put(Deck updatedDeck, CancellationToken cancellationToken)
         {
             Deck? deckToUpdate = await _db.Decks.FindAsync(updatedDeck.Id);
             if (deckToUpdate == null) return NotFound();
@@ -62,7 +77,7 @@ namespace BusinessLogic
             deckToUpdate.Name = updatedDeck.Name;
             deckToUpdate.Description = updatedDeck.Description;
 
-            await _db.SaveChangesAsync();
+            await _db.SaveChangesAsync(cancellationToken);
 
             return Ok(deckToUpdate);
         }

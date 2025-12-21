@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+QP9uohzVEY=",
+  "dgSpecHash": "vmSjT5YRT3g=",
   "success": true,
-  "projectFilePath": "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj",
+  "projectFilePath": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.0\\microsoft.entityframeworkcore.10.0.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.0\\microsoft.entityframeworkcore.abstractions.10.0.0.nupkg.sha512",

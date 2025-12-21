@@ -1,7 +1,0 @@
-<Solution>
-  <Project Path="API/API.csproj" />
-  <Project Path="BusinessLogic/BusinessLogic.csproj" />
-  <Project Path="Core/Core.csproj" />
-  <Project Path="DataAccess/DataAccess.csproj" />
-  <Project Path="Llm/Llm.csproj" Id="1d03c196-d0eb-472d-bba7-0f49c28a2df6" />
-</Solution>

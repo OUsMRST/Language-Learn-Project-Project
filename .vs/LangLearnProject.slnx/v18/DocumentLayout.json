@@ -1,0 +1,330 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\VisualStudioProjects\\LangLearnProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\visualstudioprojects\\langlearnproject\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|c:\\visualstudioprojects\\langlearnproject\\core\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|solutionrelative:core\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\studycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\studycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|c:\\visualstudioprojects\\langlearnproject\\core\\interfaces\\icardsqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|solutionrelative:core\\interfaces\\icardsqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\deckscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\deckscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D03C196-D0EB-472D-BBA7-0F49C28A2DF6}|Llm\\Llm.csproj|c:\\visualstudioprojects\\langlearnproject\\llm\\sentencegenerationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D03C196-D0EB-472D-BBA7-0F49C28A2DF6}|Llm\\Llm.csproj|solutionrelative:llm\\sentencegenerationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|c:\\visualstudioprojects\\langlearnproject\\core\\interfaces\\idatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|solutionrelative:core\\interfaces\\idatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D03C196-D0EB-472D-BBA7-0F49C28A2DF6}|Llm\\Llm.csproj|c:\\visualstudioprojects\\langlearnproject\\llm\\sentencegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D03C196-D0EB-472D-BBA7-0F49C28A2DF6}|Llm\\Llm.csproj|solutionrelative:llm\\sentencegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D03C196-D0EB-472D-BBA7-0F49C28A2DF6}|Llm\\Llm.csproj|c:\\visualstudioprojects\\langlearnproject\\llm\\cardqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D03C196-D0EB-472D-BBA7-0F49C28A2DF6}|Llm\\Llm.csproj|solutionrelative:llm\\cardqueue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D03C196-D0EB-472D-BBA7-0F49C28A2DF6}|Llm\\Llm.csproj|c:\\visualstudioprojects\\langlearnproject\\llm\\llm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D03C196-D0EB-472D-BBA7-0F49C28A2DF6}|Llm\\Llm.csproj|solutionrelative:llm\\llm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE1D79B-7BEA-47B4-B5B2-155775B2B80C}|Scheluding\\Scheduling.csproj|c:\\visualstudioprojects\\langlearnproject\\scheluding\\scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8FE1D79B-7BEA-47B4-B5B2-155775B2B80C}|Scheluding\\Scheduling.csproj|solutionrelative:scheluding\\scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|c:\\visualstudioprojects\\langlearnproject\\core\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|solutionrelative:core\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|c:\\visualstudioprojects\\langlearnproject\\core\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|solutionrelative:core\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|c:\\visualstudioprojects\\langlearnproject\\core\\interfaces\\isentencegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|solutionrelative:core\\interfaces\\isentencegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8FE1D79B-7BEA-47B4-B5B2-155775B2B80C}|Scheluding\\Scheduling.csproj|c:\\visualstudioprojects\\langlearnproject\\scheluding\\scheduling.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8FE1D79B-7BEA-47B4-B5B2-155775B2B80C}|Scheluding\\Scheduling.csproj|solutionrelative:scheluding\\scheduling.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|c:\\visualstudioprojects\\langlearnproject\\core\\interfaces\\ischeduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|solutionrelative:core\\interfaces\\ischeduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\UsersController.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\UsersController.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\UsersController.cs",
+              "RelativeToolTip": "BusinessLogic\\UsersController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwDkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T11:28:09.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T10:41:09.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SentenceGenerationWorker.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\SentenceGenerationWorker.cs",
+              "RelativeDocumentMoniker": "Llm\\SentenceGenerationWorker.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\SentenceGenerationWorker.cs",
+              "RelativeToolTip": "Llm\\SentenceGenerationWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T07:55:59.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Card.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Card.cs",
+              "RelativeDocumentMoniker": "Core\\Card.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Card.cs",
+              "RelativeToolTip": "Core\\Card.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T14:27:27.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CardsController.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\CardsController.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\CardsController.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\CardsController.cs",
+              "RelativeToolTip": "BusinessLogic\\CardsController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T18:11:00.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IDatabaseContext.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Interfaces\\IDatabaseContext.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IDatabaseContext.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Interfaces\\IDatabaseContext.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IDatabaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T15:47:58.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudyController.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\StudyController.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\StudyController.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\StudyController.cs",
+              "RelativeToolTip": "BusinessLogic\\StudyController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T14:17:46.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DecksController.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\DecksController.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\DecksController.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\DecksController.cs",
+              "RelativeToolTip": "BusinessLogic\\DecksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T14:30:45.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICardsQueue.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Interfaces\\ICardsQueue.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\ICardsQueue.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Interfaces\\ICardsQueue.cs",
+              "RelativeToolTip": "Core\\Interfaces\\ICardsQueue.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T08:43:10.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SentenceGenerator.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\SentenceGenerator.cs",
+              "RelativeDocumentMoniker": "Llm\\SentenceGenerator.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\SentenceGenerator.cs",
+              "RelativeToolTip": "Llm\\SentenceGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T06:56:16.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CardQueue.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\CardQueue.cs",
+              "RelativeDocumentMoniker": "Llm\\CardQueue.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\CardQueue.cs",
+              "RelativeToolTip": "Llm\\CardQueue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T08:11:20.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Llm",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\Llm.csproj",
+              "RelativeDocumentMoniker": "Llm\\Llm.csproj",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\Llm.csproj",
+              "RelativeToolTip": "Llm\\Llm.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-21T07:55:05.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\User.cs",
+              "RelativeDocumentMoniker": "Core\\User.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\User.cs",
+              "RelativeToolTip": "Core\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T08:34:49.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Deck.cs",
+              "RelativeDocumentMoniker": "Core\\Deck.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Deck.cs",
+              "RelativeToolTip": "Core\\Deck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T18:10:26.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISentenceGenerator.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Interfaces\\ISentenceGenerator.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\ISentenceGenerator.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Interfaces\\ISentenceGenerator.cs",
+              "RelativeToolTip": "Core\\Interfaces\\ISentenceGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-20T08:51:04.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Scheduler.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Scheluding\\Scheduler.cs",
+              "RelativeDocumentMoniker": "Scheluding\\Scheduler.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Scheluding\\Scheduler.cs",
+              "RelativeToolTip": "Scheluding\\Scheduler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:51:25.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Scheduling.csproj",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Scheluding\\Scheduling.csproj",
+              "RelativeDocumentMoniker": "Scheluding\\Scheduling.csproj",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Scheluding\\Scheduling.csproj",
+              "RelativeToolTip": "Scheluding\\Scheduling.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-19T13:51:02.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IScheduler.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Interfaces\\IScheduler.cs",
+              "RelativeDocumentMoniker": "Core\\Interfaces\\IScheduler.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Interfaces\\IScheduler.cs",
+              "RelativeToolTip": "Core\\Interfaces\\IScheduler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T13:37:01.417Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

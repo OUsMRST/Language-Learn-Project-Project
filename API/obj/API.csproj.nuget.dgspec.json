@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Visual Studio Projects\\LangLearnProject without API\\API\\API.csproj": {}
+    "C:\\VisualStudioProjects\\LangLearnProject\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Visual Studio Projects\\LangLearnProject without API\\API\\API.csproj": {
+    "C:\\VisualStudioProjects\\LangLearnProject\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Visual Studio Projects\\LangLearnProject without API\\API\\API.csproj",
+        "projectUniqueName": "C:\\VisualStudioProjects\\LangLearnProject\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\API\\API.csproj",
+        "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\API\\API.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\API\\obj\\",
+        "outputPath": "C:\\VisualStudioProjects\\LangLearnProject\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -33,14 +33,14 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Visual Studio Projects\\LangLearnProject without API\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\BusinessLogic\\BusinessLogic.csproj"
+              "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\BusinessLogic.csproj"
               },
-              "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj": {
-                "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj"
+              "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj"
               },
-              "C:\\Visual Studio Projects\\LangLearnProject without API\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\DataAccess\\DataAccess.csproj"
+              "C:\\VisualStudioProjects\\LangLearnProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -97,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
@@ -515,14 +515,14 @@
         }
       }
     },
-    "C:\\Visual Studio Projects\\LangLearnProject without API\\BusinessLogic\\BusinessLogic.csproj": {
+    "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Visual Studio Projects\\LangLearnProject without API\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\BusinessLogic\\BusinessLogic.csproj",
+        "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\BusinessLogic\\obj\\",
+        "outputPath": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -544,14 +544,14 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj": {
-                "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj"
+              "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj"
               },
-              "C:\\Visual Studio Projects\\LangLearnProject without API\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\DataAccess\\DataAccess.csproj"
+              "C:\\VisualStudioProjects\\LangLearnProject\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\DataAccess\\DataAccess.csproj"
               },
-              "C:\\Visual Studio Projects\\LangLearnProject without API\\Llm\\Llm.csproj": {
-                "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\Llm\\Llm.csproj"
+              "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\Llm.csproj": {
+                "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\Llm.csproj"
               }
             }
           }
@@ -597,7 +597,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -875,14 +875,14 @@
         }
       }
     },
-    "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj": {
+    "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj",
+        "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\obj\\",
+        "outputPath": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -943,7 +943,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1221,14 +1221,14 @@
         }
       }
     },
-    "C:\\Visual Studio Projects\\LangLearnProject without API\\DataAccess\\DataAccess.csproj": {
+    "C:\\VisualStudioProjects\\LangLearnProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Visual Studio Projects\\LangLearnProject without API\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "C:\\VisualStudioProjects\\LangLearnProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\DataAccess\\DataAccess.csproj",
+        "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\DataAccess\\obj\\",
+        "outputPath": "C:\\VisualStudioProjects\\LangLearnProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1250,8 +1250,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj": {
-                "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj"
+              "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj"
               }
             }
           }
@@ -1297,7 +1297,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -1575,14 +1575,14 @@
         }
       }
     },
-    "C:\\Visual Studio Projects\\LangLearnProject without API\\Llm\\Llm.csproj": {
+    "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\Llm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Visual Studio Projects\\LangLearnProject without API\\Llm\\Llm.csproj",
+        "projectUniqueName": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\Llm.csproj",
         "projectName": "Llm",
-        "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\Llm\\Llm.csproj",
+        "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\Llm.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\Llm\\obj\\",
+        "outputPath": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1604,8 +1604,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj": {
-                "projectPath": "C:\\Visual Studio Projects\\LangLearnProject without API\\Core\\Core.csproj"
+              "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj": {
+                "projectPath": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Core.csproj"
               }
             }
           }
@@ -1625,6 +1625,16 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "OllamaSharp": {
+              "target": "Package",
+              "version": "[5.4.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -1641,7 +1651,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
