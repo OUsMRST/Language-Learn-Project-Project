@@ -37,3 +37,5 @@ C:\VisualStudioProjects\LangLearnProject\BusinessLogic\obj\Debug\net10.0\Busines
 C:\VisualStudioProjects\LangLearnProject\BusinessLogic\obj\Debug\net10.0\refint\BusinessLogic.dll
 C:\VisualStudioProjects\LangLearnProject\BusinessLogic\obj\Debug\net10.0\BusinessLogic.pdb
 C:\VisualStudioProjects\LangLearnProject\BusinessLogic\obj\Debug\net10.0\ref\BusinessLogic.dll
+C:\VisualStudioProjects\LangLearnProject\BusinessLogic\bin\Debug\net10.0\Scheduling.dll
+C:\VisualStudioProjects\LangLearnProject\BusinessLogic\bin\Debug\net10.0\Scheduling.pdb

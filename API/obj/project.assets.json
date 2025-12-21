@@ -587,7 +587,8 @@
           "DataAccess": "1.0.0",
           "Llm": "1.0.0",
           "Microsoft.AspNet.Mvc": "5.3.0",
-          "Microsoft.AspNetCore.OpenApi": "10.0.0"
+          "Microsoft.AspNetCore.OpenApi": "10.0.0",
+          "Scheduling": "1.0.0"
         },
         "compile": {
           "bin/placeholder/BusinessLogic.dll": {}

@@ -1,0 +1,6 @@
+C:\VisualStudioProjects\LangLearnProject\Logger\obj\Debug\net10.0\Logging.csproj.AssemblyReference.cache
+C:\VisualStudioProjects\LangLearnProject\Logger\obj\Debug\net10.0\Logging.GeneratedMSBuildEditorConfig.editorconfig
+C:\VisualStudioProjects\LangLearnProject\Logger\obj\Debug\net10.0\Logging.AssemblyInfoInputs.cache
+C:\VisualStudioProjects\LangLearnProject\Logger\obj\Debug\net10.0\Logging.AssemblyInfo.cs
+C:\VisualStudioProjects\LangLearnProject\Logger\obj\Debug\net10.0\Logging.csproj.CoreCompileInputs.cache
+C:\VisualStudioProjects\LangLearnProject\Logger\obj\Debug\net10.0\Logging.sourcelink.json

@@ -14,12 +14,12 @@ namespace API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddControllers();
-
             builder.Services.AddDbContext<DatabaseContext>(options => options.UseSqlite(builder.Configuration.GetConnectionString("Sqlite")));
             builder.Services.AddScoped<Core.Interfaces.IDatabaseContext, DatabaseContext>();
 
             builder.Services.AddScoped<IScheduler, Scheduler>();
+
+            builder.Services.AddControllers();
 
             builder.Services.AddSingleton<ICardsQueue, CardQueue>();
             builder.Services.AddSingleton<ISentenceGenerator>(_ => new SentenceGenerator("http://127.0.0.1:11434", "hf.co/Vikhrmodels/Vistral-24B-Instruct-GGUF:Q4_K_M"));

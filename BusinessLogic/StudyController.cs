@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 
+
 namespace BusinessLogic
 {
     [ApiController]
@@ -50,7 +51,7 @@ namespace BusinessLogic
             Card? repeatedCard = await _db.Cards.FindAsync(cardId);
             if (repeatedCard == null) return NotFound();
 
-            repeatedCard = _scheduler.Schedule(assessment, repeatedCard);
+            _scheduler.Schedule(assessment, ref repeatedCard);
             await _db.SaveChangesAsync(cancellationToken);
             _cardsQueue.EnquequeAsync(cardId);
 
