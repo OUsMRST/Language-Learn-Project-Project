@@ -57,13 +57,5 @@ namespace BusinessLogic
 
             return Ok(cardToUpdate);
         }
-
-
-        [HttpGet("{id:guid}/generate-sentense")]
-        public async Task<ActionResult<Dictionary<string, string>>> GenerateSentense(Card card)
-        {
-            Dictionary<string, string> sentence = await _sentenceGenerator.GenerateSentence(card);
-            return Ok(sentence);
-        }
     }
 }
