@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\VisualStudioProjects\\LangLearnProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|c:\\visualstudioprojects\\langlearnproject\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\deckscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\deckscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\dtos\\deckdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\dtos\\deckdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FE1D79B-7BEA-47B4-B5B2-155775B2B80C}|Scheluding\\Scheduling.csproj|c:\\visualstudioprojects\\langlearnproject\\scheluding\\scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8FE1D79B-7BEA-47B4-B5B2-155775B2B80C}|Scheluding\\Scheduling.csproj|solutionrelative:scheluding\\scheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\dtos\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\dtos\\carddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\studycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\studycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D03C196-D0EB-472D-BBA7-0F49C28A2DF6}|Llm\\Llm.csproj|c:\\visualstudioprojects\\langlearnproject\\llm\\sentencegenerationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D03C196-D0EB-472D-BBA7-0F49C28A2DF6}|Llm\\Llm.csproj|solutionrelative:llm\\sentencegenerationworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|c:\\visualstudioprojects\\langlearnproject\\core\\interfaces\\ischeduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5ED06CAD-956C-C94D-BC0C-E89E30A887C2}|Core\\Core.csproj|solutionrelative:core\\interfaces\\ischeduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|solutionrelative:businesslogic\\businesslogic.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01E30B25-F83B-04BE-47BF-65C6F329008E}|BusinessLogic\\BusinessLogic.csproj|c:\\visualstudioprojects\\langlearnproject\\businesslogic\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,59 +34,59 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\API\\Program.cs*",
-              "RelativeToolTip": "API\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T18:21:13.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IScheduler.cs",
-              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Interfaces\\IScheduler.cs",
-              "RelativeDocumentMoniker": "Core\\Interfaces\\IScheduler.cs",
-              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Core\\Interfaces\\IScheduler.cs",
-              "RelativeToolTip": "Core\\Interfaces\\IScheduler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T17:57:32.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Scheduler.cs",
-              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Scheluding\\Scheduler.cs",
-              "RelativeDocumentMoniker": "Scheluding\\Scheduler.cs",
-              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Scheluding\\Scheduler.cs",
-              "RelativeToolTip": "Scheluding\\Scheduler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T17:55:13.34Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CardsController.cs",
-              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\CardsController.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\CardsController.cs",
-              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\CardsController.cs",
-              "RelativeToolTip": "BusinessLogic\\CardsController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Title": "DeckDTO.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\DTOs\\DeckDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\DTOs\\DeckDTO.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\DTOs\\DeckDTO.cs",
+              "RelativeToolTip": "BusinessLogic\\DTOs\\DeckDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T17:45:36.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T18:49:03.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardDTO.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\DTOs\\CardDTO.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\DTOs\\CardDTO.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\DTOs\\CardDTO.cs",
+              "RelativeToolTip": "BusinessLogic\\DTOs\\CardDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T18:43:12.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BusinessLogic.csproj",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\BusinessLogic.csproj",
+              "RelativeDocumentMoniker": "BusinessLogic\\BusinessLogic.csproj",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\BusinessLogic.csproj",
+              "RelativeToolTip": "BusinessLogic\\BusinessLogic.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-24T18:42:15.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\UsersController.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\UsersController.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\UsersController.cs",
+              "RelativeToolTip": "BusinessLogic\\UsersController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T18:39:25.745Z"
             },
             {
               "$type": "Document",
@@ -102,55 +94,24 @@
               "Title": "DecksController.cs",
               "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\DecksController.cs",
               "RelativeDocumentMoniker": "BusinessLogic\\DecksController.cs",
-              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\DecksController.cs*",
-              "RelativeToolTip": "BusinessLogic\\DecksController.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\DecksController.cs",
+              "RelativeToolTip": "BusinessLogic\\DecksController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wDQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T17:45:25.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-24T18:37:54.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\UsersController.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\UsersController.cs",
-              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\UsersController.cs",
-              "RelativeToolTip": "BusinessLogic\\UsersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CardsController.cs",
+              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\CardsController.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\CardsController.cs",
+              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\CardsController.cs",
+              "RelativeToolTip": "BusinessLogic\\CardsController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T17:45:16.97Z",
+              "WhenOpened": "2025-12-21T17:45:36.898Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudyController.cs",
-              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\StudyController.cs",
-              "RelativeDocumentMoniker": "BusinessLogic\\StudyController.cs",
-              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\BusinessLogic\\StudyController.cs",
-              "RelativeToolTip": "BusinessLogic\\StudyController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAhwDUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T17:44:59.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SentenceGenerationWorker.cs",
-              "DocumentMoniker": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\SentenceGenerationWorker.cs",
-              "RelativeDocumentMoniker": "Llm\\SentenceGenerationWorker.cs",
-              "ToolTip": "C:\\VisualStudioProjects\\LangLearnProject\\Llm\\SentenceGenerationWorker.cs",
-              "RelativeToolTip": "Llm\\SentenceGenerationWorker.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA9wDgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-21T17:43:57.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }

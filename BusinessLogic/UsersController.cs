@@ -51,6 +51,7 @@ namespace BusinessLogic
         }
 
 
+
         [HttpPost()]
         public async Task<ActionResult<User>> Post(CancellationToken cancellationToken)
         {
@@ -69,6 +70,21 @@ namespace BusinessLogic
             await _db.SaveChangesAsync(cancellationToken);
 
             return Created($"/users/{newUser.Id}", newUser);
+        }
+
+
+
+        [HttpDelete("{id:guid}")]
+        public async Task<ActionResult> Delete(Guid id)
+        {
+            User? userToRemove = await _db.Users.FindAsync(id);
+
+            if (userToRemove == null) return NotFound();
+
+            _db.Users.Remove(userToRemove);
+            await _db.SaveChangesAsync();
+
+            return Ok(userToRemove);
         }
     }
 }

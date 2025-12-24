@@ -63,5 +63,19 @@ namespace BusinessLogic
 
             return Ok(cardToUpdate);
         }
+
+
+        [HttpDelete("{id:guid}")]
+        public async Task<ActionResult> Delete(Guid id)
+        {
+            Card? cardToRemove = await _db.Cards.FindAsync(id);
+
+            if (cardToRemove == null) return NotFound();
+            
+            _db.Cards.Remove(cardToRemove);
+            await _db.SaveChangesAsync();
+            
+            return Ok(cardToRemove);
+        }
     }
 }

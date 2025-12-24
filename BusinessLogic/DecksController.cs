@@ -82,5 +82,19 @@ namespace BusinessLogic
 
             return Ok(deckToUpdate);
         }
+
+
+        [HttpDelete("{id:guid}")]
+        public async Task<ActionResult> Delete(Guid id)
+        {
+            Deck? deckToRemove = await _db.Decks.FindAsync(id);
+
+            if (deckToRemove == null) return NotFound();
+
+            _db.Decks.Remove(deckToRemove);
+            await _db.SaveChangesAsync();
+
+            return Ok(deckToRemove);
+        }
     }
 }
